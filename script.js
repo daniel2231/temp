@@ -1,3 +1,22 @@
+let app = document.querySelector('#typewriter');
+
+let typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('졸업 축하한다')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('그동안 고생 많았다')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('앞으로 꽃길만 걷자')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('어우 오글거려')
+    .pauseFor(2500)
+    .start();
+
 var retina = window.devicePixelRatio,
   // Math shorthands
   PI = Math.PI,
