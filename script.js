@@ -4,7 +4,7 @@ let typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('졸업 축하한다')
+typewriter.typeString('전환 추카!')
     .pauseFor(2500)
     .deleteAll()
     .typeString('그동안 고생 많았다')
